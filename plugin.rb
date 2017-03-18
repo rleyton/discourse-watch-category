@@ -9,8 +9,9 @@ module ::WatchCategory
   def self.watch_category!
     groups_cats = {
       # "group" => ["category", "another-top-level-category", ["parent-category", "sub-category"] ],
-      "Coaches" => [ ["closed-groups", "Coaches"] ],
-      "Committee" => [ ["closed-groups", "Committee"] ]
+      # need to confir
+      "Coaches" => [ ["closed-groups", "coaches"] ],
+      "Committee" => [ ["closed-groups", "committee"] ]
       # "everyone" makes every user watch the listed categories
       # "everyone" => [ "announcements" ]
     }
